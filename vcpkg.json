@@ -1,0 +1,15 @@
+{
+    "name": "blommy",
+    "version-string": "0.0.1",
+    "license": "MIT",
+    "dependencies": [
+      "glfw3",
+      {
+        "name":"glad",
+        "$explanation":[
+            "We are targeting OpenGL 3.3"
+        ],
+        "features":["gl-api-33"]
+      }
+    ]
+  }
